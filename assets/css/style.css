@@ -10,6 +10,7 @@
         flex-flow: row;
         justify-content: center;
         align-items: center;
+        background-color: grey;
     }
     
  .container img {
@@ -31,6 +32,12 @@
         color: crimson;
     }
 
+    .pag2 {
+        
+        display: inline;
+        padding: 18px;
+
+    }
  
 
 
