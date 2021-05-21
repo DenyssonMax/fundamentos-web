@@ -10,7 +10,7 @@
 <body>
    
     <ul id="menu"> <!--paginas que irão compor o site-->
-            <li><a href="index.html"><b> Homepage </b></a></li>
+            <li><a href="index.html"><b> Home </b></a></li>
             <li><a href="personagens.html"> <b>Conheça o elenco </b></a></li>
     </ul>
     <div class="pag2">
@@ -29,30 +29,24 @@
 
     </div>
 
-
-    
     <h1 class="center">Escrever comentário</h1>
-    <div class="container">
-    <form>
-    <label for="nome">Nome:</label> <br>
-    <input type="text" id="nome">
-    <br>
-    <br>
-    <label for="assunto">Comentário:</label> <br>
-    <textarea name="assunto" id="assunto" cols="30" rows="10
-    "></textarea>
-    <br>
-    <br>
-    <div class="container">
-        <button>Enviar</button>
-    </div>
-    </form>
-</div>
-
+       <div class="container">
+        <form>
+            <label for="nome">Nome:</label> <br>
+            <input type="text" id="nome" onkeyup='validaNome()'>
+            <div id='txtNome'></div>
+            <br>
+            <label for="assunto">Comentário:</label> <br>
+            <textarea name="assunto" id="assunto" cols="40" rows="6" onkeyup="validaAssunto()"></textarea>
+            <div id='txtAssunto'></div>
+            <br>
+            <div  class="container">
+                <button onclick="enviar()">Enviar</button>
+            </div>
+            </form>
+       </div>
 <hr>
-    <footer class="center"><b>
-                    Criado por Denysson Max &copy;
-    </b> </footer>
+    <footer class="center"><b>  Criado por Denysson Max &copy; </b> </footer>
 
 </body>
 </html>

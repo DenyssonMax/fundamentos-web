@@ -1,5 +1,10 @@
 /* Estilos da pagina index.html */
 
+.img{
+    background-image: url("./assets/img/sangue1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
  .center{
     text-align: center;
     
@@ -10,7 +15,7 @@
         flex-flow: row;
         justify-content: center;
         align-items: center;
-        background-color: grey;
+       
     }
     
  .container img {
@@ -33,7 +38,7 @@
     }
 
     .pag2 {
-        
+
         display: inline;
         padding: 18px;
 
